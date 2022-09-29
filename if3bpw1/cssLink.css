@@ -1,0 +1,35 @@
+
+
+h1 { 
+    color: red;
+    font-family: Tahoma;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table{
+    border: 1px solid black;
+    text-align: center;
+   
+}
+
+tr :hover{
+    background: #eaf513;
+}
+
+th{
+    padding: 2px 6px;
+    border-right: 1px solid black;
+    background: white;
+    color: brown;
+  
+}
+
+td{
+    padding: 2px 6px;
+    border: 0 solid black;
+    background: white;
+  
+}
+
+
