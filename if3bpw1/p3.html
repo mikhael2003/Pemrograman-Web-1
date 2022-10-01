@@ -5,55 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pertemuan 3</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<style type="text/CSS">
-    h1 {
-        font-family: 'Times New Roman', Times, serif;
-        color: blue;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    body {
-        font-family: 'Times New Roman', Times, serif;
-        background-color: rgb(162, 218, 218);
-        color: #777733;
-    }
-    table {
-        border: 1px solid red;
-    }
-    tr:hover {
-background-color: #ffaaff;
-    }
-    th {
-        padding: 2px 6 px;
-        border: 1px solid #0088ff;
-        background: #0088ff;
-        color: white;
-    }
-    td {
-        padding: 2px 6 px;
-        border: 1px solid #0088ff;
-    }
-</style>
-
 <body>
-    <div id="home">
+    <div>
+<div>
+    <!--cara panggil class slector class="nama class"-->
+    <div id="home" class="txt-center bg-primary pb-1 mb-5">
         <!--<h1> sd <h6> adalah heading-->
             <!--contoh style color-->
         <h1 style="color: rebeccapurple;">Kota Palembang</h1>
         <!--<P> adalah paragraf-->
-        <p>Selamat Datang diKota Palembang</p>
+        <p>Selamat Datang diKota Palembang 1</p>
         <hr> 
     </div>
     <div>
-        <a href="profil.html">Profil</a>
-        <a href="#home">Beranda</a>
-        <a href="Belajarcss.html">Belajar CSS</a>
-        <a href="https://palembang.go.id/" target="_blank">Web palembang.go.id</a>   
+        <ul>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="Belajarcss.html">Belajar CSS</a></li>
+        <li><a href="https://palembang.go.id/" target="_blank">Web palembang.go.id</a></li>
+        </ul>
     </div>
-    <div><img src="/image/ame.jpg" alt="anda kurang beruntung" width="50%">
-        <img src="/image/tes1.jpg" alt="anda kurang beruntung" width="20%"></div>
+    <div><img src="/image/ame.jpg" alt="anda kurang beruntung" width="26%">
+        <img src="/image/tes1.jpg" alt="anda kurang beruntung" width="15%"></div>
     </div>
     <div>
         <h2>Kecamatan</h2>
@@ -167,12 +143,12 @@ background-color: #ffaaff;
         </from>
         <p>_____________________________________________________________________________________________________________________________________________</p>
     </div>
-    <div>
+    <div class="txt-center">
         <!--contoh textarea-->
         <p>tempat comment</p>
         <textarea name="comments" cols="20" rows="4"> enter your comment...</textarea>
     </div>
-    <div>
+    <div class="txt-center">
         <!--contoh select option-->
         <p>Pilih perangkat yang digunakan:</p>
         <select name="device">
@@ -184,7 +160,7 @@ background-color: #ffaaff;
     <div>
         <h3>Polsek Di Kota Palembang</h3>
         <hr>
-        <table>
+        <table border="1">
             <thead>
                 <tr>
                     <!--kolom 1-->
@@ -225,6 +201,6 @@ background-color: #ffaaff;
          </tbody>
         </table>
     </div>
-    
+</div>
 </body>
 </html>
